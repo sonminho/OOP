@@ -6,7 +6,7 @@
 
 #### 단일책임원칙(SRP, Single Responsibility Principle)
 
-   	-  클래스는 단 하나의 책임을 가져야 함
+ -  클래스는 단 하나의 책임을 가져야 함
 
 
 
