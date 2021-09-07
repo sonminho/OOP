@@ -57,5 +57,7 @@ class RentalTest {
         rental = new Rental(member1, book1, 1, publishYearDiscount);
         rental.rent();
         Assertions.assertEquals(rental.getRentPrice(), (double) 5000); // 할인 적용
+
+        Assertions.assertEquals(member1.getAccPrice(), 15000);
     }
 }
