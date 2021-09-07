@@ -1,2 +1,4 @@
 creational/singleton/SingletonTest.java
  creational.singleton.SingletonTest
+behavioral/strategy/RentalTest.java
+ behavioral.strategy.RentalTest

@@ -1,2 +1,14 @@
 creational/singleton/Singleton.java
  creational.singleton.Singleton
+behavioral/strategy/PricePrincipal.java
+ behavioral.strategy.PricePrincipal
+behavioral/strategy/CouponPrincipal.java
+ behavioral.strategy.CouponPrincipal
+behavioral/strategy/Book.java
+ behavioral.strategy.Book
+behavioral/strategy/Member.java
+ behavioral.strategy.Member
+behavioral/strategy/PublishYearDiscount.java
+ behavioral.strategy.PublishYearDiscount
+behavioral/strategy/Rental.java
+ behavioral.strategy.Rental
