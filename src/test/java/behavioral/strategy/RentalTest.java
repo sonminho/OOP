@@ -39,5 +39,23 @@ class RentalTest {
 
         Assertions.assertEquals(rental.getRentPrice(), (double) 7000);
         Assertions.assertEquals(rental2.getRentPrice(), (double) 8000);
+        Assertions.assertEquals(member1.getAccPrice(), rental.getRentPrice() + rental2.getRentPrice()); // 누적합계
+    }
+
+    @Test
+    public void publish_year_discount_test() {
+        member1 = new Member("member1");
+
+        book1 = new Book("author1", 10000, 2019);
+        PublishYearDiscount publishYearDiscount = new PublishYearDiscount(50, book1.getPublishYear());
+        Rental rental = new Rental(member1, book1, 1, publishYearDiscount);
+        rental.rent();
+        Assertions.assertEquals(rental.getRentPrice(), (double) 10000); // 할인 적용 안됨
+
+        book1 = new Book("author1", 10000, 2010);
+        publishYearDiscount = new PublishYearDiscount(50, book1.getPublishYear());
+        rental = new Rental(member1, book1, 1, publishYearDiscount);
+        rental.rent();
+        Assertions.assertEquals(rental.getRentPrice(), (double) 5000); // 할인 적용
     }
 }

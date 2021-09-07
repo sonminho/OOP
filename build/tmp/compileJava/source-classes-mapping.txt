@@ -8,7 +8,7 @@ behavioral/strategy/Book.java
  behavioral.strategy.Book
 behavioral/strategy/Member.java
  behavioral.strategy.Member
-behavioral/strategy/PublishYearDiscount.java
- behavioral.strategy.PublishYearDiscount
 behavioral/strategy/Rental.java
  behavioral.strategy.Rental
+behavioral/strategy/PublishYearDiscount.java
+ behavioral.strategy.PublishYearDiscount

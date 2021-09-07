@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="behavioral.strategy.RentalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-07T14:55:34" hostname="LENOVO-LAPTOP" time="0.02">
+<testsuite name="behavioral.strategy.RentalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-07T15:10:27" hostname="LENOVO-LAPTOP" time="0.037">
   <properties/>
-  <testcase name="coupon_discount_test()" classname="behavioral.strategy.RentalTest" time="0.02"/>
+  <testcase name="publish_year_discount_test()" classname="behavioral.strategy.RentalTest" time="0.037"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
